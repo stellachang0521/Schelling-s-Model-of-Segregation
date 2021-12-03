@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from IPython import display
 import time
 
-random.seed(32) # for reproducible random numbers
+random.seed(32) # seed for reproducible random numbers
 group_affinity_threshold = .51
 
 class Agent():
